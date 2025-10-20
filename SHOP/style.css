@@ -1,0 +1,26 @@
+/* Custom CSS */
+.card-img-top {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.2s ease-in-out;
+}
+/* Navbar custom */
+.navbar-mc {
+  background-color: #0096d6; /* sky blue (Man City) */
+}
+.navbar-mc .navbar-brand,
+.navbar-mc .nav-link {
+  color: white;
+}
+/* Footer custom */
+.footer {
+  background-color: #f8f9fa;
+  padding: 2rem 0;
+}
+  
